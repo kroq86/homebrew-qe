@@ -21,18 +21,18 @@ class Qe < Formula
   on_macos do
     on_arm do
       url "https://github.com/kroq86/ide/releases/download/v#{version}/qe-v#{version}-darwin-arm64.tar.gz"
-      sha256 "ac03f3b1526a34a8a1f9a3a8262b79ea637e92a1bce105e141070a4ab4c4c324"
+      sha256 "d4e545aef4a7a203d9e92339de77c54e5070781cdfe0deaa1b9e79b1b52670fb"
     end
     on_intel do
       url "https://github.com/kroq86/ide/releases/download/v#{version}/qe-v#{version}-darwin-x86_64.tar.gz"
-      sha256 "7aa9b5a6bd84c8d487e08fc4ac9d7751145c1fde92c7b4df6ff6b0ccd5614b74"
+      sha256 "905cd86f5d4a914a30a4d2e0afeb3eb099e6451b7d3d87a4ceb141cc252b8875"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kroq86/ide/releases/download/v#{version}/qe-v#{version}-linux-x86_64.tar.gz"
-      sha256 "ed5ed96886da373eeb59c1385d3f9dba4dae1c1daa996cd6c382fc006bbd0b07"
+      sha256 "259cac3028dd884cac6cf6d856ca9aac88c328b32679c136800466d74d1bdb1c"
     end
   end
 
